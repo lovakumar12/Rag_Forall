@@ -1,0 +1,50 @@
+
+# ============================================================================
+# FILE: requirements.txt
+# ============================================================================
+# Core
+pydantic
+pydantic-settings
+python-dotenv
+
+# AWS
+boto3
+botocore
+
+# LangChain Core
+langchain
+langchain-core
+langchain-community
+
+# LangChain Providers
+langchain-aws
+langchain-openai
+langchain-groq
+langchain-huggingface
+langchain-milvus
+
+
+# Vector Stores
+faiss-cpu
+pymilvus
+
+# Document Loaders
+pypdf
+pymupdf
+python-docx
+unstructured
+markdown
+
+# Embeddings
+sentence-transformers
+transformers
+
+# Cohere (optional reranker)
+cohere
+
+# Cache
+redis
+#redis-server
+
+# Utils
+tqdm
